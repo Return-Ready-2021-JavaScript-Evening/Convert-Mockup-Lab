@@ -10,7 +10,7 @@ A list of expected technology to be used in this assignment
 * Image Editing Software (GIMP)
 
 ## Assignment
-In this repository you will find two image files that represent two web pages. Convert the provided designs into a functional web page.
+ This repository you will find two image files that represent two web pages. Convert the provided designs into a functional web page.
 
 ## Requirements
 
