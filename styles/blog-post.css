@@ -1,0 +1,63 @@
+.mainPost {
+    text-align: left;
+}
+
+.mainImage {
+    margin: 0 0 0 17%;
+    height: 35%;
+}
+
+.mainText {
+    margin: 0 5% 2% 17%
+}
+
+.relatedPosts {
+    margin: 0 0 0 17%;
+}
+
+.imgRel {
+    width: 100px;
+    height: 100px;
+}
+
+.sideColumn {
+    border-left-style: solid;
+    border-left-color: lightgray;
+}
+
+h1 {
+    font-size: large;
+    text-align: left;
+    font-family: "Arial Black", sans-serif;
+}
+
+h2{
+    font-size: small;
+    font-family: "Arial Black", Helvetica, sans-serif;
+}
+
+.card {
+    border-color: white;
+}
+
+.card-img {
+    width: 75px;
+    height: 70px;
+}
+
+.card-title {
+    font-size: small;
+}
+
+#searchBar {
+    border-color: lightgray;
+    width: 80%;
+}
+
+button {
+    background-color: rgb(110, 172, 187);
+}
+
+.bottomArea {
+    background-color: rgb(83, 82, 82);
+}
