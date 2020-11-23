@@ -9,6 +9,11 @@
     border-color: lightgray;
 }
 
+h3 {
+    font-size: medium;
+    font-family: "Arial Black", Helvetica, sans-serif;
+}
+
 button {
     background-color: rgb(110, 172, 187);
 }
