@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="styles/blog-post.css">
+    </head>
+    <body>
+      <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+          <a class="navbar-brand" href="#">Ikaros</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-flex justify-content-end mr-4" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">About</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link text-primary" href="#">Blog <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <div class ="row">
+        <div class="col-8 mainPost">
+          <div class="row my-5">
+            <div class="col-1 card" id="mainDate">
+              <p id="mainNum">23</p>
+              <p>JAN</p>
+            </div>
+            <div class="col">
+              <h1 class="bottomBorder pb-2">Some Kind of Latin Title</h1>
+              <span class="small text-muted">Posted by <a href="">admin</a> in <a href="">Journal,</a> <a href="">Photography,</a> <a href="">Web Design,</a> | <a href="">9 Comments</a></span>
+            </div>
+          </div>
+          <div class="mb-4 pb-3 bottomBorder">
+            <img src="images/multiethnic-business-people-sitting-desk-600w-1289836288.webp" alt="High-five for business" class="pb-2 mainImage">
+            <p>Next is a bunch of text, so I'm just going to find something to copy and paste. I'll just grab one of the featured articles on Wikipedia today. That should work fine.</p>
+            <p>World Toilet Day (WTD) is an official United Nations international observance day on 19 November to inspire action to tackle the global sanitation crisis.[1][2] Worldwide, 4.2 billion people live without "safely managed sanitation" and around 673 million people practice open defecation.[3]:74 Sustainable Development Goal 6 aims to "Ensure availability and sustainable management of water and sanitation for all".[4] In particular, target 6.2 is to "End open defecation and provide access to sanitation and hygiene)". When the Sustainable Development Goals Report 2020 was published, United Nations Secretary-General António Guterres said, “Today, Sustainable Development Goal 6 is badly off track" and it “is hindering progress on the 2030 Agenda, the realization of human rights and the achievement of peace and security around the world".[5]</p>
+            <p>World Toilet Day exists to inform, engage and inspire people to take action toward achieving this goal. The UN General Assembly declared World Toilet Day an official UN day in 2013, after Singapore had tabled the resolution (its first resolution before the UN's General Assembly of 193 member states).[6][7] Prior to that, World Toilet Day had been established unofficially by the World Toilet Organization (a Singapore-based NGO) in 2001.</p>
+          </div>
+          <div class="mb-4 pb-3 bottomBorder">
+            <h2>Related Posts</h2>
+            <div class="row">
+              <div class="col-2 mx-1">
+                <img src="images/wooden-centaur-pegasus-dolls-against-600w-650409721.jpg" alt="Horse vs Horseman" class="imgRel">
+              </div>
+              <div class="col-2 mx-1">
+                <img src="images/funny-cats-self-picture-selfie-600w-302691488.webp" alt="Cats Doing Things" class="imgRel">
+              </div>
+              <div class="col-2 mx-1">
+                <img src="images/funny-picture-toy-dinosaur-eating-600w-149662892.webp" alt="Dinos" class="imgRel">
+              </div>
+              <div class="col-2 mx-1">
+                <img src="images/picture-woman-sleeping-work-funny-600w-143823979.webp" alt="2020 Mood" class="imgRel">
+              </div>
+            </div>
+          </div>
+            <div class="mb-4 pb-3 bottomBorder">
+              <h2>2 Responses to "Some Kind of Latin Title"</h2>
+              <div class="row my-4">
+                <div class ="col-2">
+                  <img src="images/portrait-funny-raccoon-sunglasses-showing-600w-1175117491.jpg" alt="Racoons need Wifi too" class="card-img">
+                </div>
+                <div class="card col p-3 border border-secondary commentBubble">
+                  <strong>Sunglasses Raccoon</strong>
+                  <span>This is a comment on this article. This raccoon has a lot to say about the topic, I guess. I'm sure it's a very thoughtful and constructive comment.</span>
+                </div>
+              </div>
+              <div class="row my-4 ml-5">
+                <div class ="col-2">
+                  <img src="images/funny-cheerful-businessman-jumping-air-600w-285495524.webp" alt="A real 80's freeze-frame moment" class="card-img">
+                </div>
+                <div class="card col p-3 border border-secondary commentBubble">
+                  <strong>Jumping Businessman</strong>
+                  <span>This is a response to the previous comment. Please be curtious when commmenting online and try not to spend too much time arguing.</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h2>Submit a Comment</h2>
+              <p>Your email address will not be published. Required fields are marked *</p>
+              <input type="text" id="name" name="name" maxlength="30" class="my-2 submitComment bg-light" placeholder="Name *"><br>
+              <input type="text" id="email" name="email" maxlength="30" class="my-2 submitComment bg-light" placeholder="Email *"><br>
+              <input type="text" id="website" name="website" maxlength="30" class="my-2 submitComment bg-light" placeholder="Website"><br>
+              <textarea class="my-2 submitComment bg-light" rows=10;></textarea>
+              <button class="text-white px-4">Submit</button>
+            </div>
+        </div>
+        <div class="col sideColumn">
+          <div class="bottomBorder py-4">
+            <h2>POPULAR POSTS</h2>
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img src="images/forgetful-caucasian-woman-covered-paper-600w-281497085.webp" class="card-img" alt="Where'd this paper come from?">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">This is a Popular Post</h5>
+                    <p class="card-text text-muted small">15 Nov, 2020</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img src="images/funny-man-watermelon-helmet-googles-600w-157354478.webp" class="card-img" alt="The Melon Man">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Another One Here</h5>
+                    <p class="card-text text-muted small">08 Nov, 2020</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img src="images/man-mohawk-beard-iscription-isolated-600w-312285623.jpg" class="card-img" alt="WTF">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Yet Another Post</h5>
+                    <p class="card-text text-muted small">03 Nov, 2020</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bottomBorder py-4">
+            <h2>SEARCH</h2>
+            <input type="text" id="searchBar" name="searchBar" class="bg-light">
+          </div>
+          <div class="py-4">
+            <h2>CUSTOM TEXT</h2>
+            <p>Down here are a couple paragraphs of text of some kind. I'm just going to write whatever I feel like here. Better make it long enough to fill out some space.</p>
+            <p>Gonna add a second paragraph here to make it look more filled out. Yeah, this looks good.</p>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class ="row bottomArea pt-4 mt-5">
+          <div class="col-2 ml-5">
+            <h3 class="text-white">POPULAR POSTS</h3>
+            <div class="my-2 bottomBorder">
+              <p class="text-light">There's some text here. Seems like a blog post summary.</p>
+              <p class="text-white-50 small">13 November 2020</p>
+            </div>
+            <div class="my-2 bottomBorder">
+              <p class="text-light">There's another one down here.</p>
+              <p class="text-white-50 small">07 November 2020</p>
+            </div>
+            <div class="my-2">
+              <p class="text-light">Seems like there's a third blog post here. This is the last one though.</p>
+              <p class="text-white-50 small">03 November 2020</p>
+            </div>
+          </div>
+          <div class="col-2 ml-5">
+            <h3 class="text-white">TWITTER</h3>
+            <div class="my-2 bottomBorder">
+              <p class="text-light">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg>
+                This seems like a preview of a Tweet. Like the blog posts, but linked to Twitter.
+                <a href="" class="text-primary">-21 hours ago</a>
+              </p>
+            </div>
+            <div class="my-2 bottomBorder">
+              <p class="text-light">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg>
+                Another Tweet. Like the first one, but different text.
+                <a href="" class="text-primary">-3 days ago</a>
+              </p>
+            </div>
+            <div class="my-2">
+              <p class="text-light">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg>
+                One final Tweet to close out the column. Better make it count.
+                <a href="" class="text-primary">-5 days ago</a>
+              </p>
+            </div>
+          </div>
+          <div class="col-2 ml-5">
+            <h3 class="text-white">A LITTLE ABOUT ME</h3>
+            <p class="text-light my-2">
+              Seems like a short little blurb explaining who the blog owner is. The original is in Latin, so that's my best guess.
+            </p>
+            <br>
+            <p class="text-light my-2">
+              A little bit more text to make it seem fleshed out.
+            </p>
+          </div>
+          <div class="col ml-5">
+            <form>
+              <h3 class="text-white">CONTACT FORM</h3>
+              <input type="text" id="name" name="name" class="textInput bg-dark text-light my-1"><br>
+              <input type="text" id="email" name="email" class="textInput bg-dark text-light my-1"><br>
+              <textarea class="bg-dark text-light my-1" rows="6" cols="22.5"></textarea><br>
+              <button class="text-white px-4 rounded">Submit</button>
+            </form>
+          </div>
+        </div>
+        <div class="row bg-dark py-3">
+          <div class="col-8">
+            <span class="small text-white ml-5 pl-5">© 2011 Ikaros. Theme by <a href="">elemis</a>.</span>
+          </div>
+          <div class="col">
+            <a href="#" class="fa fa-rss"></a>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-dribbble"></a>
+            <a href="#" class="fa fa-pinterest"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+          </div>
+        </div>
+      </footer>
+    </body>
+</html>

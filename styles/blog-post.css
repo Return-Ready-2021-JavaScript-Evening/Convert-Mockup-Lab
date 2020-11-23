@@ -1,0 +1,142 @@
+.navbar-brand {
+    margin: 0 0 0 10%;
+    font-family: "Courier New", Courier, monospace;
+    font-size: xx-large;
+}
+
+.mainPost {
+    text-align: left;
+    margin: 0 3% 2% 10%;
+}
+
+#mainDate {
+    background-color: lightgray;
+    text-align: center;
+    border-radius: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#mainNum {
+    font-size: x-large;
+}
+
+.bottomBorder {
+    border-bottom-style: dashed;
+    border-color: lightgray;
+}
+
+.mainImage {
+    width: 95%;
+}
+
+.imgRel {
+    width: 100%;
+    max-height: 100px;
+    min-width: 100px;
+    margin: 5% 2%
+}
+
+.commentBubble {
+    background-color: rgb(238, 236, 236);
+}
+
+.submitComment {
+    width: 100%;
+    border-color: rgb(235, 235, 235);
+}
+
+.sideColumn {
+    border-left-style: solid;
+    border-left-color: lightgray;
+}
+
+h1 {
+    font-size: large;
+    text-align: left;
+    font-family: "Arial Black", sans-serif;
+}
+
+h2 {
+    font-size: small;
+    font-family: "Arial Black", Helvetica, sans-serif;
+}
+
+h3 {
+    font-size: medium;
+    font-family: "Arial Black", Helvetica, sans-serif;
+}
+
+.card {
+    border-color: white;
+}
+
+.card-img {
+    width: 100%;
+    min-width: 70px;
+}
+
+.card-title {
+    font-size: small;
+}
+
+#searchBar {
+    border-color: lightgray;
+    width: 80%;
+}
+
+button {
+    background-color: rgb(110, 172, 187);
+}
+
+footer {
+    text-align: left;
+    font-size: small;
+}
+
+.bottomArea {
+    background-color: rgb(71, 71, 71);
+}
+
+.fa {
+    padding: 2px;
+    font-size: 16px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+
+.fa-dribbble {
+    background: #ea4c89;
+    color: white;
+}
+
+.fa-rss {
+    background: #ff6600;
+    color: white;
+}
