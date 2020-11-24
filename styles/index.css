@@ -3,7 +3,7 @@ h1 {
 }
 
 h2 {
-    font-size: smaller;
+    font-size: medium;
 }
 
 ul {
@@ -30,8 +30,13 @@ li {
 
 /* --------- Bottom Navigation -------- */
 
-.bottomnav {
-    background-color: rgb(77, 77, 77);
+.bottom-nav {
+    background-color: rgb(52, 59, 63);
+    padding: 1% 2% 1% 1.125%;
+}
+
+.footer-text {
+    font-size: small;
 }
 
 
