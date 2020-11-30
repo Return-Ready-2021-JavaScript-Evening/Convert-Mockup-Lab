@@ -1,0 +1,106 @@
+h1 {
+    font-size: larger;
+}
+
+h2 {
+    font-size: medium;
+}
+
+ul {
+    float: right;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    display: inline;
+}
+
+.button {
+    background-color: rgba(11, 124, 194, 0.817);
+    color: whitesmoke;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-left: 16%;
+    padding: 15 25 15 25;
+}
+
+
+/* --------- Bottom Navigation -------- */
+
+.bottom-nav {
+    background-color: rgb(52, 59, 63);
+    padding: 1% 2% 1% 1.125%;
+}
+
+.blog-bottom-nav {
+    background-color: rgb(52, 59, 63);
+    padding: 1% 2% 1% 1.125%;
+    position: relative;
+}
+
+.footer-text {
+    font-size: small;
+}
+
+
+/* -------------- Footer ------------- */
+
+.footer {
+    background-color: rgb(33, 33, 33);
+    color: rgb(227, 227, 227);
+    height: 50px;
+}
+
+.fa {
+    padding: 8px;
+    padding-right: 25px;
+    font-size: 20px;
+    height: 35px;
+    width: 5px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    float: right;
+}
+
+.fa:hover {
+    opacity: 0.5;
+}
+
+.fa-rss {
+    background: #ff6600;
+    color: white;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-dribbble {
+    background: #ea4c89;
+    color: white;
+}
+
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.active {
+    background-color: rgb(33, 33, 33);
+    color: rgb(97, 151, 205)
+}
